@@ -1,0 +1,20 @@
+{
+  "name": "danialpg/danialpg",
+  "description": "A test plugin",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Danial",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Danial\\": "src"
+    }
+  },
+  "require": {
+    "veronalabs/rabbit": "^1.4"
+  }
+}
