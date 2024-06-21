@@ -1,0 +1,236 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Danial Pourgolab\n"
+"POT-Creation-Date: 2024-06-21 21:10+0330\n"
+"PO-Revision-Date: 2024-06-21 21:10+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: danialpg.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: danialpg.php:71
+msgid "Books ISBN Data"
+msgstr ""
+
+#: danialpg.php:72
+msgid "ISBN Data"
+msgstr ""
+
+#: src/BooksInfoListTable.php:12 src/PostTypeHandling.php:38
+msgid "Book"
+msgstr ""
+
+#: src/BooksInfoListTable.php:13
+msgid "Books"
+msgstr ""
+
+#: src/BooksInfoListTable.php:43
+msgid "No books available."
+msgstr ""
+
+#: src/BooksInfoListTable.php:58 src/BooksInfoListTable.php:112
+msgid "N/A"
+msgstr ""
+
+#: src/BooksInfoListTable.php:69
+msgid "Num"
+msgstr ""
+
+#: src/BooksInfoListTable.php:70
+msgid "ISBN"
+msgstr ""
+
+#: src/BooksInfoListTable.php:71
+msgid "Book Name"
+msgstr ""
+
+#: src/PostTypeHandling.php:22
+msgctxt "Post Type General Name"
+msgid "Books"
+msgstr ""
+
+#: src/PostTypeHandling.php:23
+msgctxt "Post Type Singular Name"
+msgid "Book"
+msgstr ""
+
+#: src/PostTypeHandling.php:24
+msgctxt "Admin Menu General Name"
+msgid "Books"
+msgstr ""
+
+#: src/PostTypeHandling.php:25
+msgid "Parent Book:"
+msgstr ""
+
+#: src/PostTypeHandling.php:26
+msgid "All Books"
+msgstr ""
+
+#: src/PostTypeHandling.php:27 src/PostTypeHandling.php:28
+msgid "Add New Book"
+msgstr ""
+
+#: src/PostTypeHandling.php:29
+msgid "Edit Book"
+msgstr ""
+
+#: src/PostTypeHandling.php:30
+msgid "Update Book"
+msgstr ""
+
+#: src/PostTypeHandling.php:31
+msgid "View Book"
+msgstr ""
+
+#: src/PostTypeHandling.php:32
+msgid "Search Books"
+msgstr ""
+
+#: src/PostTypeHandling.php:33
+msgid "No books found"
+msgstr ""
+
+#: src/PostTypeHandling.php:34
+msgid "No books found in Trash"
+msgstr ""
+
+#: src/PostTypeHandling.php:39
+msgid "Books and their information"
+msgstr ""
+
+#: src/PostTypeHandling.php:54
+msgctxt "taxonomy general name"
+msgid "Publishers"
+msgstr ""
+
+#: src/PostTypeHandling.php:55
+msgctxt "taxonomy singular name"
+msgid "Publisher"
+msgstr ""
+
+#: src/PostTypeHandling.php:56
+msgid "Search Publishers"
+msgstr ""
+
+#: src/PostTypeHandling.php:57
+msgid "All Publishers"
+msgstr ""
+
+#: src/PostTypeHandling.php:58
+msgid "Parent Publisher"
+msgstr ""
+
+#: src/PostTypeHandling.php:59
+msgid "Parent Publisher:"
+msgstr ""
+
+#: src/PostTypeHandling.php:60
+msgid "Edit Publisher"
+msgstr ""
+
+#: src/PostTypeHandling.php:61
+msgid "Update Publisher"
+msgstr ""
+
+#: src/PostTypeHandling.php:62
+msgid "Add New Publisher"
+msgstr ""
+
+#: src/PostTypeHandling.php:63
+msgid "New Publisher Name"
+msgstr ""
+
+#: src/PostTypeHandling.php:64
+msgid "Publisher"
+msgstr ""
+
+#: src/PostTypeHandling.php:80
+msgctxt "taxonomy general name"
+msgid "Authors"
+msgstr ""
+
+#: src/PostTypeHandling.php:81
+msgctxt "taxonomy singular name"
+msgid "Author"
+msgstr ""
+
+#: src/PostTypeHandling.php:82
+msgid "Search Authors"
+msgstr ""
+
+#: src/PostTypeHandling.php:83
+msgid "All Authors"
+msgstr ""
+
+#: src/PostTypeHandling.php:84
+msgid "Parent Author"
+msgstr ""
+
+#: src/PostTypeHandling.php:85
+msgid "Parent Author:"
+msgstr ""
+
+#: src/PostTypeHandling.php:86
+msgid "Edit Author"
+msgstr ""
+
+#: src/PostTypeHandling.php:87
+msgid "Update Author"
+msgstr ""
+
+#: src/PostTypeHandling.php:88
+msgid "Add New Author"
+msgstr ""
+
+#: src/PostTypeHandling.php:89
+msgid "New Author Name"
+msgstr ""
+
+#: src/PostTypeHandling.php:90
+msgid "Author"
+msgstr ""
+
+#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:148
+msgid "Delete log"
+msgstr ""
+
+#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:159
+#, php-format
+msgid "%1$s at %2$s %3$s"
+msgstr ""
+
+#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:168
+msgid "View"
+msgstr ""
+
+#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:181
+msgid "There are currently no logs to view."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Danial Pourgolab"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://danial.me"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A test plugin"
+msgstr ""

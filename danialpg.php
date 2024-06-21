@@ -17,7 +17,6 @@ use Rabbit\Application;
 use Rabbit\Plugin;
 use Rabbit\Redirects\AdminNotice;
 use Rabbit\Utils\Singleton;
-use Rabbit\Database\DatabaseServiceProvider;
 
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
@@ -43,6 +42,8 @@ class DanialPlugin extends Singleton
 
             $this->application->addServiceProvider(PostTypeHandling::class);
 
+
+
             $this->application->onActivation(function () {
                 global $wpdb;
                 $charset_collate = $wpdb->get_charset_collate();
@@ -62,6 +63,28 @@ class DanialPlugin extends Singleton
 
             $this->application->boot(function (Plugin $plugin) {
                 $plugin->loadPluginTextDomain();
+                add_action('admin_menu', function ( ){
+                    add_submenu_page(
+                        'edit.php?post_type=book',
+                        __('Books ISBN Data', 'danial-test'),
+                        __('ISBN Data', 'danial-test'),
+                        'manage_options',
+                        'books-isbn-data',
+                        [$this , 'displayBooksInfo']
+                    );
+                });
+                add_action('admin_head', function ( ){
+                    $page = $_GET['page'] ?? '';
+                    if ($page === 'books-isbn-data'){
+                        ?>
+                        <style>
+                            .column-comments, .column-links, .column-posts, .widefat .num {
+                                text-align: right;
+                            }
+                        </style>
+                        <?php
+                    }
+                }, 999);
             });
 
         } catch (Exception $e) {
@@ -80,6 +103,18 @@ class DanialPlugin extends Singleton
     public function getApplication()
     {
         return $this->application;
+    }
+
+    public function displayBooksInfo()
+    {
+        echo '<div class="wrap">';
+        echo '<h1 class="wp-heading-inline">Books Info</h1>';
+
+        $booksListTable = new Danial\BooksInfoListTable();
+        $booksListTable->prepare_items();
+        $booksListTable->display();
+
+        echo '</div>';
     }
 }
 
